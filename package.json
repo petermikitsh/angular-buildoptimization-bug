@@ -1,0 +1,25 @@
+{
+  "name": "angular-buildoptimization-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build",
+    "postinstall": "lerna bootstrap",
+    "serve": "lerna run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petermikitsh/angular-buildoptimization-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petermikitsh/angular-buildoptimization-bug/issues"
+  },
+  "homepage": "https://github.com/petermikitsh/angular-buildoptimization-bug#readme",
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  }
+}
