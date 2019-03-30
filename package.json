@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "lerna run build",
+    "build": "lerna run build --stream",
     "postinstall": "lerna bootstrap",
-    "serve": "lerna run serve",
+    "serve": "lerna run serve --stream",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
